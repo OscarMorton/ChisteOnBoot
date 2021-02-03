@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Desde Android 8 solo se permiten conexiones https.
+    Para aceptar conexiones http hay que indicar una configuración de red
+    declarando expresamente desde que dominios se aceptan conexiones http.
+-->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">chistes.germangascon.com</domain>
+    </domain-config>
+</network-security-config>
